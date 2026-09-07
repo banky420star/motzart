@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.venv/
+.m4-build/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+build/
+dist/
+Mozart.app/
+data/*
+!data/.gitkeep
+workspace/*
+!workspace/.gitkeep
+*.log

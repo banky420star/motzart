@@ -1,0 +1,9 @@
+-r requirements.txt
+pywebview>=6.0,<7
+# Explicit Cocoa dependencies make Homebrew/python.org Python installs reliable.
+pyobjc-core>=9.0; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=9.0; sys_platform == "darwin"
+pyobjc-framework-Quartz>=9.0; sys_platform == "darwin"
+pyobjc-framework-WebKit>=9.0; sys_platform == "darwin"
+pyobjc-framework-security>=9.0; sys_platform == "darwin"
+pyobjc-framework-UniformTypeIdentifiers>=9.0; sys_platform == "darwin"
